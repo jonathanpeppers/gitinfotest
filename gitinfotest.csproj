@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!--GitInfo settings-->
+    <GitThisAssembly>false</GitThisAssembly>
+    <GitDefaultBranch>main</GitDefaultBranch>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GitInfo" Version="2.1.2" PrivateAssets="all" />
+  </ItemGroup>
+
+</Project>
